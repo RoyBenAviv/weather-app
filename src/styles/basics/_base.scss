@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: $background1;
+  color: $white;
+  font-family: raleway-semi;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @include flex(column, flex-start)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: raleway-semi;
+  margin: 0;
+  font-weight: 400;
+  padding: 0;
+}
+
+h1 {
+  font-family: raleway-bold;
+}
+
+p {
+  font-family: raleway-thin;
+  font-weight: 400;
+  margin: 0;
+}
+
+button,
+a {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+input {
+  font-family: inherit;
+  text-align: inherit;
+}
