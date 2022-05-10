@@ -1,1 +1,1 @@
-Weather Application using React hooks
+Weather application using React hooks
