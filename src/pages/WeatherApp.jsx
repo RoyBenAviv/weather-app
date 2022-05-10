@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { weatherService } from '../services/weatherService'
 import { LocationForm } from '../components/LocationForm.jsx'
-import { ForcastPreview } from '../components/ForcastPreview.jsx'
+import { ForcastList } from '../components/ForcastList.jsx'
 
 export const WeatherApp = () => {
   const [locSearch, setLocation] = useState('')
@@ -34,7 +34,7 @@ export const WeatherApp = () => {
   return (
     <main>
       <LocationForm isValidLocation={isValidLocation} onSaveLocation={onSaveLocation} locSearch={locSearch} setLocation={setLocation} />
-      <ForcastPreview forcast={forcast} isLoading={isLoading} />
+      <ForcastList forcast={forcast} isLoading={isLoading} />
     </main>
   )
 }

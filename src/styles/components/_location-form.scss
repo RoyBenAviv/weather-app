@@ -1,7 +1,8 @@
 .location-form {
-    @include flex(column);
     .input-container {
         position: relative;
+        max-width: 300px;
+        margin: auto;
         input {
             width: 300px;
             height: 50px;

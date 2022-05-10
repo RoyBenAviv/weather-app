@@ -1,0 +1,22 @@
+.forcast-preview {
+    background-color: $background1;
+    padding: rem(30px);
+    border: 1px solid white;
+    border-radius: 10px;
+    img {
+        width: 100px;
+        display: flex;
+        margin: auto
+    }
+    .temp {
+        @include flex;
+        .celsius {
+            font-size: rem(100px);
+        }
+        span {
+            font-size: rem(48px);
+            font-family: raleway-semi;
+            color: $grey;
+        }
+    }
+}

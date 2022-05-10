@@ -5,7 +5,7 @@
 }
 
 html {
-  background-color: $background1;
+  background-color: $background2;
   color: $white;
   font-family: raleway-semi;
 }
@@ -15,6 +15,9 @@ body {
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
   @include flex(column, flex-start)
 }
 
@@ -31,7 +34,7 @@ h6 {
 }
 
 h1 {
-  font-family: raleway-bold;
+  font-family: raleway-medium;
 }
 
 p {

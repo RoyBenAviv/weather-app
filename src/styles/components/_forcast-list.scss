@@ -1,0 +1,7 @@
+.forcast-list {
+    margin-block-start: rem(50px);
+    ul {
+        @include flex;
+        gap: rem(30px);
+    }
+}
