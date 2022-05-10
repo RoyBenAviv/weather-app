@@ -1,22 +1,32 @@
 .forcast-preview {
+    text-align: center;
     background-color: $background1;
-    padding: rem(30px);
+    padding: rem(40px) rem(30px);
     border: 1px solid white;
     border-radius: 10px;
+    h3 {
+        margin-block-end: rem(30px);
+        font-family: raleway-medium;
+    }
     img {
         width: 100px;
         display: flex;
         margin: auto
     }
-    .temp {
-        @include flex;
-        .celsius {
-            font-size: rem(100px);
-        }
-        span {
-            font-size: rem(48px);
-            font-family: raleway-semi;
-            color: $grey;
+    .temp-container {
+        margin-block-start: rem(40px);
+        @include flex(row, space-between);
+        gap: rem(50px);
+        .temp {
+            @include flex;
+            .celsius {
+                font-size: rem(30px);
+            }
+            span {
+                font-size: rem(20px);
+                font-family: raleway-semi;
+                color: $grey;
+            }
         }
     }
 }

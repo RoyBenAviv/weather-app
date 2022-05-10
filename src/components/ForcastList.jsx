@@ -14,7 +14,7 @@ export const ForcastList = ({ forcast, isLoading }) => {
     <section className="forcast-list">
       {!forcast || isLoading ? (
         <div className="loading">
-          <Lottie options={defaultOptions} height={150} width={150} />
+          <Lottie options={defaultOptions} height={350} width={350} />
           <h2>Loading...</h2>
         </div>
       ) : (

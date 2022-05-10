@@ -1,4 +1,8 @@
 .forcast-list {
+    h2 {
+        text-align: center;
+        margin: rem(20px);
+    }
     margin-block-start: rem(50px);
     ul {
         @include flex;
