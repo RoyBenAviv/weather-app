@@ -1,0 +1,58 @@
+.today-highlights {
+  h2 {
+    text-align: center;
+    margin: rem(30px);
+  }
+
+  .highlights-list {
+        @include flex;
+        gap: rem(20px);
+        margin-block-start: rem(40px);
+        li {
+          @include flex(column);
+            min-width: 310px;
+            min-height: 220px;
+            background-color: $background1;
+            padding: rem(30px);
+            h3 {
+              font-family: raleway-medium;
+              font-size: rem(16px);
+              text-align: center;
+              margin: rem(8px) 0;
+            }
+            h1 {
+              margin: rem(8px);
+              font-size: raleway-medium;
+              font-size: 25px;
+              text-align: center;
+              span {
+                margin-inline-end: rem(8px);
+                font-size: 55px;
+                font-family: raleway-bold
+              }
+            }
+        }
+  }
+
+  .humidity-bar {
+    @include flex(row, flex-start);
+    padding: 0 rem(2px);
+    position: relative;
+    width: 250px;
+    height: 15px;
+    background-color: $white;
+    border-radius: 25px;
+    margin-block-start: rem(20px);
+    .percentage {
+      width: 100%;
+      @include flex(row, space-between);
+      position: absolute;
+      top: -20px;
+    }
+    .bar {
+      height: 10px;
+      background-color: #FBAB7E;
+      border-radius: 25px;
+    }
+  }
+}

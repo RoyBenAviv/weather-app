@@ -1,9 +1,10 @@
 .forcast-list {
     h2 {
         text-align: center;
+        font-size: rem(30px);
         margin: rem(20px);
     }
-    margin-block-start: rem(50px);
+    margin-block-start: rem(25px);
     ul {
         @include flex;
         gap: rem(30px);
