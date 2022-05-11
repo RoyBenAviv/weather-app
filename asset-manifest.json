@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/weather-app/static/css/main.6c0fe87c.css",
+    "main.css": "/weather-app/static/css/main.065c7b6d.css",
     "main.js": "/weather-app/static/js/main.d46caed4.js",
     "static/media/Raleway-Medium.ttf": "/weather-app/static/media/Raleway-Medium.1af9f1e9f3fd4766df83.ttf",
     "static/media/Raleway-SemiBold.ttf": "/weather-app/static/media/Raleway-SemiBold.243af299ad3631bfc369.ttf",
@@ -8,11 +8,11 @@
     "static/media/Raleway-Thin.ttf": "/weather-app/static/media/Raleway-Thin.537e4a263280ac058bf9.ttf",
     "static/media/logo.png": "/weather-app/static/media/logo.6d6ed0288888f16c3979.png",
     "index.html": "/weather-app/index.html",
-    "main.6c0fe87c.css.map": "/weather-app/static/css/main.6c0fe87c.css.map",
+    "main.065c7b6d.css.map": "/weather-app/static/css/main.065c7b6d.css.map",
     "main.d46caed4.js.map": "/weather-app/static/js/main.d46caed4.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c0fe87c.css",
+    "static/css/main.065c7b6d.css",
     "static/js/main.d46caed4.js"
   ]
 }
