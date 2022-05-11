@@ -1,4 +1,8 @@
 .location-form {
+    p {
+        text-align: center;
+        margin-block-start: rem(20px);
+    }
     .input-container {
         position: relative;
         max-width: 300px;

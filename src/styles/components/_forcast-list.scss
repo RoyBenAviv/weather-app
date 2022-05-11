@@ -8,5 +8,10 @@
     ul {
         @include flex;
         gap: rem(30px);
+        @media (max-width: 1350px) {
+            flex-wrap: wrap;
+            max-width: 700px;
+            margin: auto;
+        }
     }
 }

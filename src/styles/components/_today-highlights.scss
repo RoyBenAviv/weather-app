@@ -5,33 +5,41 @@
   }
 
   .highlights-list {
-        @include flex;
-        gap: rem(20px);
-        margin-block-start: rem(40px);
-        li {
-          @include flex(column);
-            min-width: 310px;
-            min-height: 220px;
-            background-color: $background1;
-            padding: rem(30px);
-            h3 {
-              font-family: raleway-medium;
-              font-size: rem(16px);
-              text-align: center;
-              margin: rem(8px) 0;
-            }
-            h1 {
-              margin: rem(8px);
-              font-size: raleway-medium;
-              font-size: 25px;
-              text-align: center;
-              span {
-                margin-inline-end: rem(8px);
-                font-size: 55px;
-                font-family: raleway-bold
-              }
-            }
+    @include flex;
+    gap: rem(20px);
+    margin: rem(30px) 0;
+    @media (max-width: 1350px) {
+      flex-wrap: wrap;
+      max-width: 700px;
+      margin: auto;
+    }
+    @media (max-width: 695px) {
+      max-width: 500px;
+    }
+    li {
+      @include flex(column);
+      min-width: 310px;
+      height: 200px;
+      background-color: $background1;
+      padding: rem(30px);
+      h3 {
+        font-family: raleway-medium;
+        font-size: rem(16px);
+        text-align: center;
+        margin: rem(8px) 0;
+      }
+      h1 {
+        margin: rem(8px);
+        font-size: raleway-medium;
+        font-size: 25px;
+        text-align: center;
+        span {
+          margin-inline-end: rem(8px);
+          font-size: 55px;
+          font-family: raleway-bold;
         }
+      }
+    }
   }
 
   .humidity-bar {
@@ -51,7 +59,7 @@
     }
     .bar {
       height: 10px;
-      background-color: #FBAB7E;
+      background-color: #fbab7e;
       border-radius: 25px;
     }
   }
